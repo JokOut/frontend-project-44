@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/JokOut/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/JokOut/frontend-project-44/actions)",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "brain-games": "bin/brain-games.js"
   },
   "main": "index.js",
   "scripts": {
