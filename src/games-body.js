@@ -11,7 +11,7 @@ const playGame = (gameRule, generateRound) => {
     const [expectedAnswer, question] = generateRound();
     console.log(`Question: ${question}`);
     const userAnswer = (readlineSync.question('Your answer: '));
-    if (userAnswer !== expectedAnswer) {
+    if (userAnswer.toLowerCase() !== expectedAnswer) {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${expectedAnswer}.`);
       console.log(`Let's try again, ${userName}!`);
       return;
