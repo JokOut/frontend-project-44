@@ -1,4 +1,4 @@
-#!/usr/bin/env node;
-import greeting from '../src/cli.js';
+#!/usr/bin/env node
+import runBrainEven from '../src/games-logic/brain-even-logic.js';
 
-greeting();
+runBrainEven();
