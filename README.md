@@ -4,3 +4,5 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6f8083d4257d7838405a/maintainability)](https://codeclimate.com/github/JokOut/frontend-project-44/maintainability)
 
 [![asciicast](https://asciinema.org/a/Uc7AMXcHINQFw8e9MtaQdpQeY.svg)](https://asciinema.org/a/Uc7AMXcHINQFw8e9MtaQdpQeY)
+
+[![asciicast](https://asciinema.org/a/s1c2q3qUZPEWZNhNgyKA3HwyQ.svg)](https://asciinema.org/a/s1c2q3qUZPEWZNhNgyKA3HwyQ)
