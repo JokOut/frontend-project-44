@@ -15,8 +15,8 @@ const makeProgression = (startNumber, step, changeIndex) => {
 
 const generateRound = () => {
   const progressionStart = getRandom();
-  const progressionStep = getRandom(1, 10);
-  const replaceIndex = getRandom(1, progressionLength - 1);
+  const progressionStep = getRandom(5, 10);
+  const replaceIndex = getRandom(0, progressionLength - 1);
   const question = makeProgression(progressionStart, progressionStep, replaceIndex);
   const expectedAnswer = String(progressionStart + (progressionStep * replaceIndex));
   return [expectedAnswer, question];
