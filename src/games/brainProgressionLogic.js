@@ -1,9 +1,9 @@
 import playGame from '../index.js';
-import getRandom from '../tools.js';
+import getRandomNumber from '../tools.js';
 
 const gameRule = 'What number is missing in the progression?';
 
-const progressionLength = getRandom(5, 10);
+const progressionLength = getRandomNumber(5, 10);
 
 const makeProgression = (startNumber, step, changeIndex) => {
   let progression = '';
@@ -14,12 +14,12 @@ const makeProgression = (startNumber, step, changeIndex) => {
 };
 
 const generateRound = () => {
-  const progressionStart = getRandom();
-  const progressionStep = getRandom(5, 10);
-  const replaceIndex = getRandom(0, progressionLength - 1);
-  const question = makeProgression(progressionStart, progressionStep, replaceIndex);
-  const expectedAnswer = String(progressionStart + (progressionStep * replaceIndex));
-  return [expectedAnswer, question];
+  const progressionStart = getRandomNumber(1, 99);
+  const progressionStep = getRandomNumber(5, 10);
+  const replaceIndex = getRandomNumber(0, progressionLength - 1);
+  const getQuestion = makeProgression(progressionStart, progressionStep, replaceIndex);
+  const answer = String(progressionStart + progressionStep * replaceIndex);
+  return [answer, getQuestion];
 };
 
 const runBrainProgression = () => playGame(gameRule, generateRound);

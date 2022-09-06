@@ -1,6 +1,6 @@
 import playGame from '../index.js';
 
-import getRandom from '../tools.js';
+import getRandomNumber from '../tools.js';
 
 const isPrimeNumber = (num) => {
   if (num < 2 || num === num < 0) return false;
@@ -15,9 +15,9 @@ const isPrimeNumber = (num) => {
 const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateRound = () => {
-  const question = getRandom();
-  const expectedAnswer = isPrimeNumber(question) ? 'yes' : 'no';
-  return [expectedAnswer, question];
+  const question = getRandomNumber(1, 99);
+  const answer = isPrimeNumber(question) ? 'yes' : 'no';
+  return [answer, question];
 };
 
 const runBrainPrime = () => playGame(gameRule, generateRound);
