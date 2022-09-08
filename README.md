@@ -22,16 +22,16 @@ The game is launched by entering the name of the game in terminal.
 
 ### Play demo
 **Calculator**
-[![asciicast](https://asciinema.org/a/Uc7AMXcHINQFw8e9MtaQdpQeY.svg)](https://asciinema.org/a/Uc7AMXcHINQFw8e9MtaQdpQeY)
-
-**Progression**
 [![asciicast](https://asciinema.org/a/s1c2q3qUZPEWZNhNgyKA3HwyQ.svg)](https://asciinema.org/a/s1c2q3qUZPEWZNhNgyKA3HwyQ)
 
+**Progression**
+[![asciicast](https://asciinema.org/a/aUe5xqAZCtvc1APn7BZDXGvnK.svg)](https://asciinema.org/a/aUe5xqAZCtvc1APn7BZDXGvnK)
+
 **Definition of an even number**
-[![asciicast](https://asciinema.org/a/rKjZOYzzaS5tRh2q5cKLpzSFu.svg)](https://asciinema.org/a/rKjZOYzzaS5tRh2q5cKLpzSFu)
+[![asciicast](https://asciinema.org/a/g6t0A6ylTGn6IGG5b0I33NC57.svg)](https://asciinema.org/a/g6t0A6ylTGn6IGG5b0I33NC57)
 
 **Finding the greatest common divisor**
-[![asciicast](https://asciinema.org/a/aUe5xqAZCtvc1APn7BZDXGvnK.svg)](https://asciinema.org/a/aUe5xqAZCtvc1APn7BZDXGvnK) 
+[![asciicast](https://asciinema.org/a/rKjZOYzzaS5tRh2q5cKLpzSFu.svg)](https://asciinema.org/a/rKjZOYzzaS5tRh2q5cKLpzSFu) 
 
 **Definition of a prime number**
 [![asciicast](https://asciinema.org/a/MUxnhCZhQJ2a3pmyCP5x3JSPe.svg)](https://asciinema.org/a/MUxnhCZhQJ2a3pmyCP5x3JSPe)
